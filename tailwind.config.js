@@ -1,12 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
-/** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
@@ -32,10 +24,10 @@ module.exports = {
         "secondary-500": "#FFB620",
         "off-white": "#D0DFFF",
         red: "#FF5A5A",
-        "dark-1": "#000000", // Black color
-        "dark-2": "#09090A", // Very dark color
-        "dark-3": "#101012", // Very dark color
-        "dark-4": "#1F1F22", // Dark color
+        "dark-1": "#000000",
+        "dark-2": "#09090A",
+        "dark-3": "#101012",
+        "dark-4": "#1F1F22",
         "light-1": "#FFFFFF",
         "light-2": "#EFEFEF",
         "light-3": "#7878A3",
